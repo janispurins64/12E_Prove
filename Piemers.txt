@@ -1,0 +1,133 @@
+setInterval(dzivn, 5000); 
+
+var rezult = document.getElementById("rez"); 
+var dz = 1;
+var sunaSk = ["Buldogs", "Taksis", "Ratrivers"];
+function dzivn(){ 
+// Šeit izdzēst esošo
+if(dz==1)
+{
+	/*dz=1  ir kaķis  dz=2 ir suns*/
+	dz = 2;
+document.getElementById("rez").innerHTML = "<img src = cat.jpg><br>"; 	
+for ()//4 rindas
+{
+	///let divDzivn = document.getElementById("rez" )       
+		let kaPoga1 = document.createElement("P??" );
+        kaPoga1.setAttribute("class","p1");
+        kaPoga1.innerHTML=kakis[i];
+   //     kaPoga1.onclick=(evt)=>this.kaClearInd();
+        this. divDzivn.appendChild(kaPoga1);
+	
+	setTimeout(dzivn, 500); 
+}
+}
+else
+{
+	/*dz=1  ir kaķis  dz=2 ir suns*/
+	dz = 1;
+document.getElementById("rez").innerHTML = "<img src = cat.jpg><br>"; 	
+for ()//4 rindas
+{
+	///let divDzivn = document.getElementById("rez" )       
+		let kaPoga1 = document.createElement("P??" );
+        kaPoga1.setAttribute("class","p1");
+        kaPoga1.innerHTML=sunaSk[i];
+   //     kaPoga1.onclick=(evt)=>this.kaClearInd();
+        this. divDzivn.appendChild(kaPoga1);
+	
+	setTimeout(fu(), 500); 
+}	
+}
+
+function fu()
+{
+	;
+}
+
+setTimeout(rindkcat1, 500); 
+
+ 
+}
+setInterval(dzivn, 5000); 
+
+ 
+ function rindkcat1(){ 
+		document.getElementById("rez").innerHTML = "<img src = cat.jpg><br>Persijas kaķis<br>"; 
+		} 
+
+setTimeout(rindkcat2, 1000); 
+
+function rindkcat2(){ 
+
+                    document.getElementById("rez").innerHTML = "<img src = cat.jpg><br>Persijas kaķis<br>Meinkūns<br>"; 
+
+                } 
+
+                setTimeout(rindkcat3, 1500); 
+
+                function rindkcat3(){ 
+
+                    document.getElementById("rez").innerHTML = "<img src = cat.jpg><br>Persijas kaķis<br>Meinkūns<br>Bengālijas kaķis<br>"; 
+
+                } 
+
+                setTimeout(rindkcat4, 2000); 
+
+                function rindkcat4(){ 
+
+                    document.getElementById("rez").innerHTML = "<img src = cat.jpg><br>Persijas kaķis<br>Meinkūns<br>Bengālijas kaķis<br>Siāmas kaķis<br>"; 
+
+                } 
+
+                setTimeout(suns, 5000); 
+
+                function suns(){ 
+
+                    document.getElementById("rez").innerHTML = "<img src = dog.jpg>"; 
+
+                } 
+
+                setTimeout(rindkdog1, 5500); 
+
+                function rindkdog1(){ 
+
+                    document.getElementById("rez").innerHTML = "<img src = dog.jpg><br>Vācu aitusuns<br>"; 
+
+                } 
+
+                setTimeout(rindkdog2, 6000); 
+
+                function rindkdog2(){ 
+
+                    document.getElementById("rez").innerHTML = "<img src = dog.jpg><br>Vācu aitusuns<br>Buldogs<br>"; 
+
+                } 
+
+                setTimeout(rindkdog3, 6500); 
+
+                function rindkdog3(){ 
+
+                    document.getElementById("rez").innerHTML = "<img src = dog.jpg><br>Vācu aitusuns<br>Buldogs<br>Pūdelis<br>"; 
+
+                } 
+
+                setTimeout(rindkdog4, 7000); 
+
+                function rindkdog4(){ 
+
+                    document.getElementById("rez").innerHTML = "<img src = dog.jpg><br>Vācu aitusuns<br>Buldogs<br>Pūdelis<br>Labradoras retrīvers<br>"; 
+
+                } 
+
+                setTimeout(beigas, 10000); 
+
+                function beigas(){ 
+
+                    document.getElementById("rez").innerHTML = ""; 
+
+                } 
+
+            } 
+
+ 
